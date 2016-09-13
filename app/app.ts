@@ -4,6 +4,7 @@ import {StatusBar, Splashscreen} from 'ionic-native';
 import {HomePage} from './pages/home/home';
 import {TutorialPage} from './pages/tutorial/tutorial';
 import { TabsPage } from './pages/tabs/tabs';
+import { SearchPage } from './pages/search/search';
 
 
 
@@ -21,7 +22,7 @@ interface PageObj {
 class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = TutorialPage;
 
   // set our app's pages
   pages : PageObj[] = [

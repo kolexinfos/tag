@@ -41,7 +41,8 @@ export class TutorialPage {
   }
 
   startApp() {
-    this.navCtrl.push(HomePage);
+    //this.navCtrl.push(HomePage);
+    this.navCtrl.setRoot(HomePage);
   }
 
   onSlideChangeStart(slider) {
